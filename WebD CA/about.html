@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Student Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+
+        .nav-menu a:hover,
+        .nav-menu a.active {
+            opacity: 0.8;
+            border-bottom: 2px solid white;
+            padding-bottom: 0.25rem;
+        }
+
+        /* Main Content */
+        .about-section {
+            background-color: white;
+            padding: 4rem 2rem;
+            margin: 2rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .profile-image {
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image img:hover {
+            transform: scale(1.05);
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .about-text strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-menu {
+                gap: 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .about-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar - Common across all pages -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Student Name/Logo -->
+            <h1 class="logo">Varun Kumar Mishra</h1>
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <!-- About Content with Float Layout -->
+            <div class="about-content">
+                <!-- Profile Image - Float Left -->
+                <div class="profile-image">
+                    <!-- Replace with your own image -->
+                     <img width="200" src="Screenshot 2025-12-09 154118.png" alt="">
+                </div>
+                
+                <!-- Personal Introduction Text - Float Right -->
+                <div class="about-text">
+                    <p>
+                        Hello! I'm a dedicated <strong>computer science student</strong> with a passion 
+                        for creating innovative web solutions. I have been learning web 
+                        development for the past two years and have developed strong 
+                        skills in <strong>HTML, CSS, and JavaScript</strong>.
+                    </p>
+                    <p>
+                        My journey in programming began with curiosity and has evolved 
+                        into a deep commitment to building user-friendly applications. 
+                        I'm constantly exploring new technologies and frameworks to 
+                        enhance my skillset and stay ahead of industry trends.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy reading tech blogs, participating 
+                        in hackathons, and contributing to open-source projects. I believe 
+                        in continuous learning and always strive to improve my craft.
+                    </p>
+                    <p>
+                        My goal is to become a <strong>full-stack developer</strong> and work on projects 
+                        that make a positive impact on people's lives through technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2025 Varun Kumar Mishra - My Student Portfolio. All rights reserved.</p>
+        <p>GitHub: <a href="https://github.com/varunkm01213" target="_blank" rel="noopener noreferrer">github.com/varunkm01213</a></p>
+    </footer>
+</body>
+</html>
