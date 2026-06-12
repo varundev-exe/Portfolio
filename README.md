@@ -1,69 +1,84 @@
-🎓 Student Portfolio Website
+<div align="center">
 
+# Varun Kumar
 
-This is a fully functional student portfolio website created as part of a web development assignment. The website consists of four interconnected pages that demonstrate proficiency in HTML structure, CSS styling techniques, and responsive web design principles.
-Live Demo: View Portfolio (Update with your actual GitHub Pages link)
+<img src="https://media.giphy.com/media/hvRJCLFzcasrMwlJ1N/giphy.gif" width="25px" alt="wave" />
 
-✨ Features
+**Aspiring ML Engineer | Python Enthusiast | Lifelong Learner**
 
-Responsive Design - Works seamlessly on desktop, tablet, and mobile devices
-Common Navigation Bar - Consistent navigation across all pages with active state indicators
-Float Layout - About page uses CSS float for image and text positioning
-Flexbox Layout - Skills page uses Flexbox for responsive card alignment
-HTML Forms - Fully styled contact form with all required input fields
-Semantic HTML - Proper use of HTML5 semantic elements
-CSS Animations - Smooth transitions and hover effects
-Clean Code - Well-commented and organized code structure
-Accessible - Follows basic web accessibility guidelines
+</div>
 
-🛠️ Technologies Used
+---
 
-HTML5 - Semantic markup and structure
-CSS3 - Styling, layouts, and animations
+## 👋 About Me
 
-Flexbox
-Float
-CSS Grid (for responsive design)
-Transitions & Animations
+I'm a passionate student developer focused on building intelligent systems and exploring the world of machine learning. Currently honing my skills in Python and data science, with a strong foundation in full-stack web development. I'm driven by the desire to solve real-world problems through code and continuous learning. When I'm not coding, you'll find me exploring new technologies and working on hands-on projects.
 
-📄 Pages
-1. Home Page (index.html)
+---
 
-Hero section with gradient background
-Welcome message and call-to-action button
-Introduction to the portfolio
+## 🛠️ Tech Stack & Tools
 
-2. About Me Page (about.html)
+### Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Profile picture with circular border
-Personal introduction (4-5 lines minimum)
-Uses CSS Float for layout
-Biography and background information
+### Libraries & Frameworks
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
-3. Skills & Projects Page (skills.html)
+### Web Technologies
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Minimum of 6 skill/project cards
-Each card includes:
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
 
-Skill/Project name
-Description (1-2 lines)
-Unique background color
-Border styling
+---
 
+## 🎯 Current Focus
 
-Uses Flexbox for responsive card alignment
-Hover effects on cards
+**Currently learning Machine Learning fundamentals and building hands-on Python projects to strengthen my foundation in data science and AI.**
 
-4. Contact Form Page (contact.html)
+- 📚 Diving deep into supervised and unsupervised learning algorithms
+- 🔬 Working on practical ML projects using real-world datasets
+- 💡 Exploring data visualization and exploratory data analysis techniques
 
-Fully functional contact form with:
+---
 
-Name input field
-Email input field
-Subject input field
-Message textarea
-Submit button
+## 📊 GitHub Statistics
 
+<div align="center">
 
-Form validation attributes
-Professional styling with focus states
+![Varun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=varundev-exe&show_icons=true&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=varundev-exe&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 📬 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourprofile)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:varunkm1213@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=github-pages&logoColor=white)](https://varundev-exe.github.io/Portfolio)
+
+</div>
+
+---
+
+<div align="center">
+
+**Let's build something amazing together! Feel free to reach out and connect.**
+
+![Profile Views](https://komarev.com/ghpvc/?username=varundev-exe&style=flat-square&color=blue)
+
+</div>
