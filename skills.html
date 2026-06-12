@@ -89,6 +89,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
+            margin-bottom: 4rem;
         }
 
         /* Skill Cards */
@@ -187,6 +188,62 @@
             color: white;
         }
 
+        .card-6 {
+            border-left-color: #ff6b6b;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+        }
+
+        .card-6 h3,
+        .card-6 p {
+            color: white;
+        }
+
+        /* Featured Project Section */
+        .featured-project {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            color: white;
+            margin-top: 4rem;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        .featured-project h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .featured-project p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+
+        .project-link:hover {
+            background-color: white;
+            color: #667eea;
+            transform: translateY(-3px);
+        }
+
         /* Footer */
         .footer {
             background-color: #222;
@@ -228,6 +285,19 @@
 
             .logo {
                 font-size: 1.3rem;
+            }
+
+            .project-links {
+                flex-direction: column;
+            }
+
+            .project-link {
+                width: 100%;
+                text-align: center;
+            }
+
+            .featured-project h3 {
+                font-size: 1.5rem;
             }
         }
     </style>
@@ -294,13 +364,40 @@
 
                 <!-- Skill Card 5 -->
                 <div class="skill-card card-5">
-                    <h3>Python Programming</h3>
+                    <h3>Data Science Using Python Programming</h3>
                     <p>
                         Strong foundation in Python for backend development, data 
-                        structures, and algorithmic problem solving.
+                        structures, and algorithmic problem solving with data science applications.
                     </p>
                 </div>
 
+                <!-- Skill Card 6 -->
+                <div class="skill-card card-6">
+                    <h3>Data Structures in C/C++</h3>
+                    <p>
+                        In-depth knowledge of data structures and algorithms in C/C++, 
+                        with proficiency in implementing and optimizing efficient solutions.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Featured Project Section -->
+            <div class="featured-project">
+                <h3>🎓 CGPA Calculator</h3>
+                <p>
+                    A comprehensive CGPA Calculator application built with modern web technologies. 
+                    This project helps students efficiently calculate and track their cumulative grade point average, 
+                    providing an intuitive interface for managing academic performance metrics.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/varundev-exe/gpa-calculator" target="_blank" rel="noopener noreferrer" class="project-link">
+                        📦 GitHub Repository
+                    </a>
+                    <a href="https://gpa-calculator-98wmzd5uj-varuns-projects-5d3157d4.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                        🚀 Live Demo
+                    </a>
+                </div>
             </div>
         </div>
     </main>
