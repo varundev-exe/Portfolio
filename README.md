@@ -10,7 +10,7 @@
 
 ---
 
-## 👋 About Meau
+## 👋 About Me
 
 I'm a passionate student developer focused on building intelligent systems and exploring the world of machine learning. Currently honing my skills in Python and data science, with a strong foundation [...]
 
