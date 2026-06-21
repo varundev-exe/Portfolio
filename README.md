@@ -47,7 +47,7 @@ I'm a passionate student developer focused on building intelligent systems and e
 
 - 📚 Diving deep into supervised and unsupervised learning algorithms
 - 🔬 Working on practical ML projects using real-world datasets
-- 💡 Exploring data visualization and exploratory data analysis techniqueskbnfd
+- 💡 Exploring data visualization and exploratory data analysis techniques
 
 ---
 
